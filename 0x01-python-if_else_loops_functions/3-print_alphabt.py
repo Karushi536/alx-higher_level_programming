@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 
-for char in range(ord('a'), ord('z') + 1):
-    if chr(char) not in ['e', 'q']:
-        print("{}".format(chr(char)), end=""/n)
+for a in range(97, 123):
+    if a != 113 and a != 101:
+        print("{}".format(chr(a)), end="")
