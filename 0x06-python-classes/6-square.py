@@ -68,7 +68,8 @@ class Square:
         return self.__size ** 2
 
     def my_print(self):
-        """Prints the square with the '#' character and position spaces."""
+        """Prints the square with the 
+        '#' character and position spaces."""
         if self.__size == 0:
             print()
         else:
