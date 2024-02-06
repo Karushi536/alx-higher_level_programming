@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This module contains a function that reads from a file"""
+"""Module that contains a function that reads from a file"""
 
 
 def read_file(filename=""):
@@ -10,6 +10,6 @@ def read_file(filename=""):
     Exception: when the file can be opened
     """
 
-    with open(filename, 's', encoding="utf-8") as f:
+    with open(filename, 'r', encoding="utf-8") as f:
         read_data = f.read()
         print(read_data, end='')
